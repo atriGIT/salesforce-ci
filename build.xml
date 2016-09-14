@@ -1,0 +1,17 @@
+<project name="Sample usage of Salesforce Ant tasks" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <property file="build.properties"/>
+    <property environment="env"/>
+
+    <!-- Retrieve an unpackaged set of metadata from your org -->
+    <!-- The file unpackaged/package.xml lists what is to be retrieved -->
+    <target name="deployRunAllTests">
+      <sf:deploy 
+        username="${sfsource.username}" 
+        password="${sfsource.password}" 
+        serverurl="${sf.serverurl}" 
+        runAllTests="true"
+        deployRoot="src"/>
+    </target>
+	
+</project>
