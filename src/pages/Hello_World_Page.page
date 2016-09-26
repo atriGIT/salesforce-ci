@@ -2,7 +2,6 @@
 <apex:form >
   <h1>Congratulations</h1>
   This is my first VisualForce Page!
-  //comment added 
   <apex:commandButton value="Done"></apex:commandButton>
 </apex:form>
 </apex:page>

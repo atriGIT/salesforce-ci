@@ -20,7 +20,7 @@
         serverurl="${sf.serverurl}" 
         maxPoll="${sf.maxPoll}" 
         retrieveTarget="retrievestaging" 
-        unpackaged="retrieve/package.xml"/>
+        unpackaged="src/package.xml"/>
     </target>
 
     <!-- Deploy the unpackaged set of metadata retrieved with retrieveUnpackaged and run tests in this organization's namespace only-->
