@@ -30,7 +30,7 @@
         password="${sfqa.password}" 
         serverurl="${sf.serverurl}" 
         maxPoll="${sf.maxPoll}" 
-        deployRoot="retrievestaging" 
+        deployRoot="src" 
         rollbackOnError="true"/>
     </target>
 	
